@@ -435,6 +435,7 @@ header {
 
 .calendar-rel{
     position: relative;
+    height: 700px;
 }
   
 .calendar-buttons {
@@ -773,6 +774,11 @@ footer{
         width: 100%;  
         clip-path: polygon(55.2% 0, 81% 0%, 101% 100%, 78.5% 240%);
     }
+
+    .calendar-rel{
+        height: 650px;
+    }
+
     .days-header div{
         width: 50px;
         height: 40px;
@@ -809,6 +815,10 @@ footer{
 
     .calendar {
         width: 60%;
+    }
+
+    .calendar-rel{
+        height: 600px;
     }
 
     .days-header div{
@@ -962,7 +972,7 @@ footer{
     }
 
     .calendar-buttons{
-        top: 600px;
+        top: 850px;
         width: 45px;
         height: 45px;
         z-index: 10;
@@ -1008,10 +1018,20 @@ footer{
         margin-top: 20px;
     }
 
+    .calendar-buttons{
+        top: 750px;
+    }
+
+    .calendar-rel{
+        height: 550px;
+    }
+
     table button {
         width: 75px;
         font-size: 12px;
     }
+
+    
 
     .rules-wrapper{
         margin: 50px 0;
@@ -1047,6 +1067,14 @@ footer{
         width: 90%;
     }
 
+    .calendar-buttons{
+        top: 700px;
+    }
+
+    .calendar-rel{
+        height: 450px;
+    }
+
     .days-header div{
         width: 25px;
         height: 20px;
@@ -1061,10 +1089,6 @@ footer{
         width: 25px;
         height: 20px;
         margin-top: 15px;
-    }
-
-    .calendar-buttons{
-        top: 550px;
     }
 
     .registration{
@@ -1145,6 +1169,16 @@ footer{
         height: 15px;
         margin-top: 10px;
     }
+
+    .calendar-buttons{
+        top: 570px;
+    }
+
+    .calendar-rel{
+        height: 350px;
+    }
+
+
 
     .rule-text {
         font-size: 10px;
